@@ -1,0 +1,3 @@
+﻿Add-Migration -Context PlantContext -o Data\PCMigrations Initial
+Update-Database -Context PlantContext
+Update-Database -Context ApplicationDbContext
